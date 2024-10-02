@@ -13,10 +13,6 @@ body{
     color: var(--cor_terciaria);    
 }
 
-h1{
-    color: #000;
-}
-
 header{
     background: var(--cor_primaria);    
     color: #fff;
@@ -29,7 +25,6 @@ header.cabecalho{
     justify-content: space-between;
     align-items: center;
     display: flex;
-   
 }
 
 
@@ -48,38 +43,38 @@ header nav a:hover {
 header nav ul {
     list-style: none;
 }
+
 header nav ul li {
     display: inline-block;
     margin: 0 40px;
 }
+
+h1{
+    color: #000;
+}
+
 p{
     text-align: justify;
     margin: 80px;
     margin-top: 0;
     margin-bottom: 0;
 }
- .p1{
+
+ .post_um{
     text-align: justify;
     margin: 80px;
     margin-top: 0;
     margin-bottom: 0;
 }
- .p2{
+
+ .post_dois{
     text-align: justify;
     margin: 80px;
     margin-top: 0;
     margin-bottom: 10px;
  }
-footer{
-    background: var(--cor_terciaria);
-    padding-bottom: 5px;
-}
 
-.pfooter{
-    color: #000;
-    text-align: center;
-}
-form {
+ form {
     max-width: 500px;
     margin: 0 auto;
     display: flex;
@@ -117,8 +112,17 @@ form .botao_enviar{
     font-size: 18px;
 }
 
-
 form .botao_enviar:hover {
     background: var(--cor_secundaria);
     color: var(--cor_secundaria);
+}
+
+footer{
+    background: var(--cor_terciaria);
+    padding-bottom: 5px;
+}
+
+.pfooter{
+    color: #000;
+    text-align: center;
 }
